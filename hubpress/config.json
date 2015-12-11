@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "saiisai",
-    "repositoryName": "saiisai.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"saiisai","repositoryName":"saiisai.github.io","branch":"master"},"site":{"postsPerPage":"5","url":"https://saiisai.github.io"},"socialnetwork":{"email":"gokisdok@gmail.com","twitter":"gokisdok","github":"saiisai"},"theme":{"name":"ichi","url":"//saiisai.github.io/themes/ichi"}}
