@@ -1,4 +1,7 @@
 =  wycieczka-do-mc-donalds
+
+:toc:
+
 Darmowe ciasteczko
 _____________________________________________________________________
 image::http://www.mcdonalds.pl/assets/Uploads/ciastko-jablkowe.png[ciasteczko]
