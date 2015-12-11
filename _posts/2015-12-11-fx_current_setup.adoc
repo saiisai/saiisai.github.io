@@ -1,0 +1,39 @@
+= fx_current_setup
+
+:toc:
+
+== Currency Exchange - Current Setup
+
+==== Market Outline
+- $5.3 trillion  http://www.economist.com/news/economic-and-financial-indicators/21586351-global-foreign-exchange-turnover"[turnover every day] across 192 currencies, with over 40% global trading involving European currencies
+
+- for banks, financial institutions and most businesses, trading stops every weekend from 20:15 GMT on Sunday until 22:00 GMT Friday
+
+- extreme http://cbs.db.com/new/docs/DB_FXRESULTS_HR_Final3_180511.pdf[market concentration]: the top 4 institutions (Deutsche Bank, Barclays Capital, UBS & Citi) account for around 46% of all foreign exchange transactions. Throw in JPMorgan, HSBC, RBS, Credit Suisse, Goldman Sachs and Morgan Stanley (so, just 10 closely networked institutions) and you have 77% of all currency trading.
+
+- large spreads between buy and sell prices across currency pairs. Almost all businesses and financial institutions, exchanging into another currency  then back, will lose at least 1% of value. For consumers, losses are more often in the 4-10% range.
+
+- minimal support for automation of cashflow management and balance sheet operations
+
+- central banks, behind closed doors, decide to make extremely large trades on exchange reserves
+
+==== Key Failings
+- with forex trading closed over weekends, exchange rates are magically frozen for 50 hours. This is a massive inconvenience to business, since normal transaction processes and cashflow management tools stop working. This is incompatible with the 24-7 online economy. Intermediaries that do continue trading currencies over weekends have less competition and are assuming additional trading risk, and so typically charge business & consumers with even wider spreads between buy and sell price.
+
+- extreme market concentration within intransparent institutions has facilitated http://www.ft.com/cms/s/0/af9a8778-2cdb-11e3-8281-00144feab7de.html#axzz2iImi6W6v[price fixing activity] and http://www.bbc.co.uk/news/business-24773173[currency manipulation], harming productive businesses for the https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDEQqQIwAA&url=http%3A%2F%2Fwww.economist.com%2Fblogs%2Fschumpeter%2F2013%2F12%2Flibor-scandal&ei=3DSgUqyhLMzwhQf4jIAg&usg=AFQjCNHMcCbzS_rZ3f7jQOfCOXVbuJiiHA&sig2=HF25ANuiY0KhQEwLmWj9Xg&bvm=bv.57155469,d.bGE[profit of larger banks]
+////
+http://www.economist.com/blogs/schumpeter/2013/12/libor-scandal[profit of larger banks]
+////
+- wide buy-sell price spreads act as a tariff, creating barriers to trade across currency areas, weakening competition
+
+- wide buy-sell price spreads act as a multi-billion transfer of wealth from the average consumer and from other productive businesses, towards a small privileged elite
+
+- no automation - millions of human-hours (thousands of lifetimes) are wasted. These aren't grunt hours either - the professionals involved in currency trading are highly numerate and articulate - the opportunity cost here is all the innovation and new solutions to real world problems we might see if these intelligent people could spend time on worthwhile endeavours
+
+- intransparent central bank interventions cause unexpected outcomes, damaging efficiency of resource allocation across the tradable economy. Central bank interventions by humans are also highly susceptible to http://www.bbc.co.uk/news/business-26450643[corruption]
+
+==== Shifting to a Better World
+
+Mainstream reform efforts (e.g. http://ec.europa.eu/internal_market/payments/sepa/[SEPA], http://global.moneygram.com/ro/en[MoneyGram], extending trading window length for indices) do not materially tackle these key failings. This surely provides adequate motivation for a few months of hacker collaboration (plus years of marketing and lobbying to ensure that the solution scales). We want transparent, efficient, distributed, 24/7, automated forex trading, in which any business can enter as counterparty, in which there is no spread in buying and selling price (no "tariffs"; no fragmentation) and in which there is full support for third parties to automate (e.g. in cashflow management, trading or accounting - freeing thousands of intelligent people to do greater things).
+
+First, explore the https://gist.github.com/shaundaley39/7061433#file-fx_key_concepts-adoc[key concepts] involved in solving forex. Then look at a preliminary approach to https://gist.github.com/shaundaley39/7061546#file-fx_implementation-adoc[technical implementation]. Finally, a few thoughts to https://gist.github.com/shaundaley39/7062221#file-fx_marketing-adoc[profitability, marketing and successful scaling].
